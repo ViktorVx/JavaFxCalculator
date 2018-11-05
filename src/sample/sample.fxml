@@ -42,19 +42,19 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="4.0" text="1" />
-                  <Button mnemonicParsing="false" text="2" GridPane.columnIndex="1" />
-                  <Button mnemonicParsing="false" text="3" GridPane.columnIndex="2" />
-                  <Button mnemonicParsing="false" text="4" GridPane.rowIndex="1" />
-                  <Button mnemonicParsing="false" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                  <Button mnemonicParsing="false" text="6" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-                  <Button mnemonicParsing="false" text="7" GridPane.rowIndex="2" />
-                  <Button mnemonicParsing="false" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                  <Button mnemonicParsing="false" text="9" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-                  <Button mnemonicParsing="false" text="0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Button fx:id="bt1" mnemonicParsing="false" onAction="#handlePushButton" prefHeight="25.0" prefWidth="4.0" text="1" />
+                  <Button fx:id="bt2" mnemonicParsing="false" onAction="#handlePushButton" text="2" GridPane.columnIndex="1" />
+                  <Button fx:id="bt3" mnemonicParsing="false" onAction="#handlePushButton" text="3" GridPane.columnIndex="2" />
+                  <Button fx:id="bt4" mnemonicParsing="false" onAction="#handlePushButton" text="4" GridPane.rowIndex="1" />
+                  <Button fx:id="bt5" mnemonicParsing="false" onAction="#handlePushButton" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Button fx:id="bt6" mnemonicParsing="false" text="6" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <Button fx:id="bt7" mnemonicParsing="false" onAction="#handlePushButton" text="7" GridPane.rowIndex="2" />
+                  <Button fx:id="bt8" mnemonicParsing="false" onAction="#handlePushButton" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Button fx:id="bt9" mnemonicParsing="false" onAction="#handlePushButton" text="9" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <Button fx:id="bt0" mnemonicParsing="false" onAction="#handlePushButton" text="0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                </children>
             </GridPane>
-            <TextField prefHeight="25.0" prefWidth="273.0" />
+            <TextField fx:id="txField" prefHeight="25.0" prefWidth="273.0" />
          </children>
       </Pane>
    </children>
