@@ -11,12 +11,16 @@ public class Main extends Application {
     //todo insert testing with Mockito
     //todo ? insert mining ?
     //todo insert multilingualism
+    //todo add brackets-buttons
+    //todo make all components in size of main form
+    //todo make expression evaluation
+    //todo add css-styling
 
 
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("Калькулятор");
         primaryStage.setScene(new Scene(root, 300, 320));
         primaryStage.show();
     }
