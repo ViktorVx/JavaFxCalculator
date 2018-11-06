@@ -9,10 +9,8 @@ import javafx.stage.Stage;
 public class Main extends Application {
 
     //todo insert testing with Mockito
-    //todo ? insert mining ?
     //todo insert multilingualism
     //todo add brackets-buttons
-    //todo make all components in size of main form
     //todo make expression evaluation
     //todo add css-styling
 
