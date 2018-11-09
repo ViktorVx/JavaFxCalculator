@@ -1,17 +1,16 @@
-package sample;
+package calc;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.event.ActionEvent;
+import calc.calculations.Operation;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
 
-enum Operation{
-    PLUS, SUBTRACT, DIVISION, MULTIPLY
-}
+
 
 public class Controller {
 

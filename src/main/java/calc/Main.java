@@ -1,4 +1,5 @@
-package sample;
+package calc;
+
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -13,6 +14,7 @@ public class Main extends Application {
     //todo add brackets-buttons
     //todo make expression evaluation
     //todo add css-styling
+    //todo insert testing with maven
 
 
     @Override
