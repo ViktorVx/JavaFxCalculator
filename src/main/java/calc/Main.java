@@ -15,11 +15,15 @@ public class Main extends Application {
     //todo make expression evaluation
     //todo add css-styling
     //todo insert testing with maven
+    //todo avoid resizable of the form to fixed size
+    //todo для цифр-кнопок использовать id
+    //todo добавить поле для выражений
+    //todo добавить локали
 
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+    public void start(Stage primaryStage) throws Exception {
+        Parent root = FXMLLoader.load(getClass().getResource("/mainWindows/mainWindow.fxml"));
         primaryStage.setTitle("Калькулятор");
         primaryStage.setScene(new Scene(root, 300, 320));
         primaryStage.show();

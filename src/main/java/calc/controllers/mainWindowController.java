@@ -1,4 +1,4 @@
-package calc;
+package calc.controllers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -12,7 +12,7 @@ import java.math.RoundingMode;
 
 
 
-public class Controller {
+public class mainWindowController {
 
     @FXML
     private TextField txField;
