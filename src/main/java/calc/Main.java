@@ -9,16 +9,13 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
-    //todo insert testing with Mockito
-    //todo insert multilingualism
     //todo add brackets-buttons
     //todo make expression evaluation
     //todo add css-styling
-    //todo insert testing with maven
     //todo avoid resizable of the form to fixed size
     //todo для цифр-кнопок использовать id
     //todo добавить поле для выражений
-    //todo добавить локали
+    //todo add application icon
 
 
     @Override
