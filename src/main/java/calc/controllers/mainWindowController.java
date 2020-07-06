@@ -9,9 +9,6 @@ import calc.calculations.Operation;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-
-
-
 public class mainWindowController {
 
     @FXML
@@ -100,6 +97,4 @@ public class mainWindowController {
 
         needToClear = true;
     }
-
-
 }
